@@ -1,0 +1,28 @@
+.back1{
+  background: red;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height:10%;
+}
+
+.imgNav{
+  width: 35%;
+  height: 35%;
+}
+
+.orderDown{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+img{
+display:block;
+margin:auto;
+}
+
+.rotateImg{
+  transform: rotate(90deg);
+}
