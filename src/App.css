@@ -1,14 +1,28 @@
 .back1{
-  background: red;
+  background: rgb(196,30,30);
   display: flex;
   justify-content: space-around;
   text-align: center;
   height:10%;
 }
 
+.back2{
+  background: rgb(196,30,30);
+background: linear-gradient(180deg, rgba(196,30,30,1) 56%, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 64%);
+  justify-content: space-around;
+  text-align: center;
+  height:100%;
+  bottom: 0px;
+}
+
 .imgNav{
   width: 35%;
   height: 35%;
+}
+
+.imgPokelogo{
+  width: 60%;
+  height: 60%;
 }
 
 .orderDown{
@@ -26,3 +40,122 @@ margin:auto;
 .rotateImg{
   transform: rotate(90deg);
 }
+
+.squarewhite {
+  width: 407px;
+  height: 320px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+
+.squareblack {
+  width: 479px;
+  height: 384px;
+  background: rgba(18,16,16,1);
+  opacity: 1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden
+  }
+
+.squareblack2 {
+  width: 100%;
+  height: 30px;
+  background: blue;
+  
+  }
+
+.letra {
+  width: 301px;
+  color: rgba(0,0,0,1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+
+
+.letra3 {
+  width: 177px;
+  color: rgba(255,255,255,1);
+
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+.squaregrey {
+  width: 367px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  border: 1px solid rgba(30,12,12,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+
+.squareblue {
+  width: 367px;
+  height: 60px;
+  background: rgba(51,192,255,1);
+  opacity: 1;
+  border: 1px solid rgba(51,192,255,1);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.centerPokeball{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.centerItems{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.greyletter {
+  color: grey;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+
+}
+
+.blueletter {
+  color: rgba(51,123,238,1);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+
+}
+
